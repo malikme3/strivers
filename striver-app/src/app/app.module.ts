@@ -17,9 +17,11 @@ import {
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { UsersComponent } from './users/users.component';
 import { HomeComponent } from './home/home.component';
+import { PostsComponent } from './posts/posts.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
-  declarations: [AppComponent, UsersComponent, HomeComponent],
+  declarations: [AppComponent, UsersComponent, HomeComponent, PostsComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -31,6 +33,7 @@ import { HomeComponent } from './home/home.component';
     NbLayoutModule,
     NbSidebarModule,
     NbEvaIconsModule,
+    HttpClientModule,
     NbCardModule
   ],
   providers: [NbSidebarService],

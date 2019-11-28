@@ -23,9 +23,9 @@ export class AppComponent {
       children: undefined
     },
     {
-      title: 'Keys',
+      title: 'Post',
       icon: 'keypad-outline',
-      link: '/users',
+      link: '/posts',
       home: false,
       children: undefined
     }
